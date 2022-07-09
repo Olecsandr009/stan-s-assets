@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans&display=swap&_v=20220709160028"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220709160028">
+    <title>Мій сайт</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header white">
+    <div class="header__container">
+        <a href="#" class="header__logo">
+            <img src="img/logo2.png" alt="Icon" class="header__icon">
+        </a>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item">
+                    <div class="header__menu-popup-wrapper">
+                        <a href="#" class="header__link modal">
+                            SERVICES
+                        </a>
+
+                        <ul class="header__menu-popup">
+                            <li class="header__menu-popup-item">
+                                <a href="#" class="header__menu-popup-link">MOBILE APPLICATION DEVELOPMENT</a>
+                            </li>
+                            <li class="header__menu-popup-item">
+                                <a href="#" class="header__menu-popup-link">GAME DEVELOPMENT OUTSOURCING</a>
+                            </li>
+                            <li class="header__menu-popup-item">
+                                <a href="#" class="header__menu-popup-link">VR APP DEVELOPMENT</a>
+                            </li>
+                            <li class="header__menu-popup-item">
+                                <a href="#" class="header__menu-popup-link">DEDICATED DEVELOPERS</a>
+                            </li>
+                            <li class="header__menu-popup-item">
+                                <a href="#" class="header__menu-popup-link">SDK DEVELOPMENT</a>
+                            </li>
+                            <li class="header__menu-popup-item">
+                                <a href="#" class="header__menu-popup-link">3D MODELING SERVICES</a>
+                            </li>
+                            <li class="header__menu-popup-item">
+                                <a href="#" class="header__menu-popup-link">AR APP DEVELOPMENT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="header__item">
+                    <div class="header__menu-popup-wrapper">
+                        <a href="#" class="header__link modal">TECHNOLOGIES</a>
+                    </div>
+                </li>
+                <li class="header__item">
+                    <div class="header__menu-popup-wrapper">
+                        <a href="#" class="header__link">PRODUCTS</a>
+                    </div>
+                </li>
+                <li class="header__item">
+                    <div class="header__menu-popup-wrapper">
+                        <a href="#" class="header__link">PORTFOLIO</a>
+                    </div>
+                </li>
+                <li class="header__item">
+                    <div class="header__menu-popup-wrapper">
+                        <a href="#" class="header__link">BLOG</a>
+                    </div>
+                </li>
+                <li class="header__item">
+                    <div class="header__menu-popup-wrapper">
+                        <a href="#" class="header__link modal">ABOUT US</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <a href="#" class="header__btn btn-border">CONTACT US</a>
+        <a data-burger-link="1" href="#" class="header__burger">
+            <img src="img/icons/burger-icon-blue.svg" alt="Icon" class="header__icon">
+        </a>
+    </div>
+</header>
+
+<div data-burger="1" class="burger">
+    <a data-burger-exit="1" href="#" class="burger__exit">x</a>
+
+    <ul class="burger__list">
+        <li class="burger__item">
+            <a data-spoler-link="01" href="#" class="burger__link modal">SERVICES</a>
+
+            <ul style="display: none" hidden data-spoler="01" class="burger__sub-list">
+                <li class="burger__sub-item">
+                    <a href="#" class="burger__link">MOBILE APPLICATION DEVELOPMENT</a>
+                </li>
+                <li class="burger__sub-item">
+                    <a href="#" class="burger__link">GAME DEVELOPMENT OUTSOURCING</a>
+                </li>
+                <li class="burger__sub-item">
+                    <a href="#" class="burger__link">VR APP DEVELOPMENT</a>
+                </li>
+                <li class="burger__sub-item">
+                    <a href="#" class="burger__link">DEDICATED DEVELOPERS</a>
+                </li>
+                <li class="burger__sub-item">
+                    <a href="#" class="burger__link">SDK DEVELOPMENT</a>
+                </li>
+                <li class="burger__sub-item">
+                    <a href="#" class="burger__link">3D MODELING SERVICES</a>
+                </li>
+                <li class="burger__sub-item">
+                    <a href="#" class="burger__link">AR APP DEVELOPMENT </a>
+                </li>
+            </ul>
+        </li>
+        <li class="burger__item">
+            <a href="#" class="burger__link modal">TECHNOLOGIES</a>
+        </li>
+        <li class="burger__item">
+            <a href="#" class="burger__link">PRODUCTS</a>
+        </li>
+        <li class="burger__item">
+            <a href="#" class="burger__link">PORTFOLIO</a>
+        </li>
+        <li class="burger__item">
+            <a href="#" class="burger__link">BLOG</a>
+        </li>
+        <li class="burger__item">
+            <a href="#" class="burger__link modal">ABOUT US</a>
+        </li>
+    </ul>
+
+    <a href="#" class="burger__btn btn-border green">CONTACT US</a>
+</div>
+        <main class="main">
+            <section class="hero">
+
+    <div class="hero__container service">
+        <div class="hero__content">
+            <div class="hero__bread-crumbs">
+                <a href="#" class="hero__prev-link">Home</a>
+                <img src="img/hero/icon.svg" alt="Icon" class="hero__icon">
+                <a href="#" class="hero__prev-link">Services</a>
+                <img src="img/hero/icon.svg" alt="Icon" class="hero__icon">
+                <a class="hero__current-link">VR App Development</a>
+            </div>
+            <h1 class="hero__title blue">VR APP Development</h1>
+        </div>
+        <div class="hero__media">
+            <img src="img/hero/image.svg" alt="Image" class="hero__image">
+        </div>
+
+        <div class="hero__content-bottom">
+            <div class="hero__block">
+                <h3 class="hero__block-title">Header 1</h3>
+                <div class="hero__block-content">
+                    <p class="hero__block-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sodales
+                        eleifend dolor vel cursus. Fusce in ligula ut leo eleifend lobortis fringilla non elit. Vivamus
+                        mollis, odio ac finibus rutrum, libero augue venenatis leo, in maximus ipsum dui et est. In in
+                        aliquet libero. In ac enim non lectus convallis feugiat.
+                    </p>
+                    <p class="hero__block-text">
+                        Ut in pharetra tortor. Quisque ligula magna, iaculis non porta ut, suscipit
+                        sit amet sapien. Sed ut
+                        pharetra mauris. Cras ac dapibus turpis. Etiam suscipit orci eu tristique gravida.
+                    </p>
+                </div>
+            </div>
+            <div class="hero__block">
+                <h3 class="hero__block-title">Header 2</h3>
+                <div class="hero__block-content">
+                    <p class="hero__block-text">
+                        Fusce consectetur vel urna ut venenatis. Etiam in mauris odio. Phasellus sed
+                        turpis vitae justo maximus suscipit in ut risus. Quisque viverra magna lorem, et placerat velit
+                        cursus quis.
+                    </p>
+                    <p class="hero__block-text">
+                        Maecenas venenatis molestie eros, in pulvinar urna elementum quis. Praesent
+                        a lorem quis sem cursus
+                        feugiat sed nec erat. Maecenas venenatis molestie eros, in pulvinar urna elementum quis.
+                        Praesent a
+                        lorem quis sem cursus feugiat sed nec erat.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero__links-soc">
+        <a href="#" class="hero__link-soc">
+            <img src="img/icons/facebook.svg" alt="Icon" class="hero__icon">
+        </a>
+        <a href="#" class="hero__link-soc">
+            <img src="img/icons/in.svg" alt="Icon" class="hero__icon">
+        </a>
+        <a href="#" class="hero__link-soc">
+            <img src="img/icons/waccap.svg" alt="Icon" class="hero__icon">
+        </a>
+        <a href="#" class="hero__link-soc">
+            <img src="img/icons/skype.svg" alt="Icon" class="hero__icon">
+        </a>
+    </div>
+</section>
+            <section class="technologies">
+    <div class="technologies__block">
+        <div class="technologies__image">
+            <img src="img/technologies/image.png" alt="Icon" class="technologies__icon">
+        </div>
+        <div class="technologies__content">
+            <p class="technologies__length">4.5</p>
+            <div class="technologies__stars">
+                <div class="technologies__star-icon">
+                    <img src="img/technologies/star.svg" alt="Icon" class="technologies__icon">
+                </div>
+                <div class="technologies__star-icon">
+                    <img src="img/technologies/star.svg" alt="Icon" class="technologies__icon">
+                </div>
+                <div class="technologies__star-icon">
+                    <img src="img/technologies/star.svg" alt="Icon" class="technologies__icon">
+                </div>
+                <div class="technologies__star-icon">
+                    <img src="img/technologies/star.svg" alt="Icon" class="technologies__icon">
+                </div>
+                <div class="technologies__star-icon">
+                    <img src="img/technologies/star.svg" alt="Icon" class="technologies__icon">
+                </div>
+            </div>
+            <p class="technologies__text-block">2 reviews </p>
+        </div>
+        <a href="#" class="technologies__btn btn-green">Check out reviews</a>
+    </div>
+</section>
+            <section class="services two">
+    <h2 class="services__title title">Services</h2>
+
+    <div class="services__container">
+        <div class="services__carts">
+            <a href="#" class="services__cart">
+                <div class="services__cart-media">
+                    <img src="img/services/icon1.svg" alt="Icon" class="services__icon">
+                </div>
+                <p class="services__cart-text">Mobile Application Development</p>
+            </a>
+            <a href="#" class="services__cart">
+                <div class="services__cart-media">
+                    <img src="img/services/icon2.svg" alt="Icon" class="services__icon">
+                </div>
+                <p class="services__cart-text">Game development outsourcing</p>
+            </a>
+            <a href="#" class="services__cart">
+                <div class="services__cart-media">
+                    <img src="img/services/icon3.svg" alt="Icon" class="services__icon">
+                </div>
+                <p class="services__cart-text">vr app development</p>
+            </a>
+            <a href="#" class="services__cart">
+                <div class="services__cart-media">
+                    <img src="img/services/icon4.svg" alt="Icon" class="services__icon">
+                </div>
+                <p class="services__cart-text">Dedicated Developers</p>
+            </a>
+            <a href="#" class="services__cart">
+                <div class="services__cart-media">
+                    <img src="img/services/icon5.svg" alt="Icon" class="services__icon">
+                </div>
+                <p class="services__cart-text">sdk development</p>
+            </a>
+            <a href="#" class="services__cart">
+                <div class="services__cart-media">
+                    <img src="img/services/icon6.svg" alt="Icon" class="services__icon">
+                </div>
+                <p class="services__cart-text">sdk 3d modeling </p>
+            </a>
+            <a href="#" class="services__cart">
+                <div class="services__cart-media">
+                    <img src="img/services/icon7.svg" alt="Icon" class="services__icon">
+                </div>
+                <p class="services__cart-text">ar app development</p>
+            </a>
+        </div>
+    </div>
+</section>
+            <section class="looking">
+    <h2 class="looking__title">LOOKING FOR A PARTNER IN BUILDING A SOLUTION?</h2>
+    <p class="looking__sub-title">We are ready to discuss your project requirements</p>
+    <a href="#" class="looking__btn btn-border green">Let’s talk</a>
+</section>
+            <section class="text">
+    <div class="text__container">
+        <div class="text__block">
+            <h4 class="text__title">Header 1</h4>
+            <div class="text__content">
+                <p class="text__text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sodales eleifend dolor vel
+                    cursus. Fusce in ligula ut leo eleifend lobortis fringilla non elit. Vivamus mollis, odio ac finibus
+                    rutrum, libero augue venenatis leo, in maximus ipsum dui et est. In in aliquet libero. In ac enim
+                    non lectus convallis feugiat.
+                </p>
+                <p class="text__text">
+                    Ut in pharetra tortor. Quisque ligula magna, iaculis non porta ut, suscipit sit amet sapien. Sed ut
+                    pharetra mauris. Cras ac dapibus turpis. Etiam suscipit orci eu tristique gravida.
+                </p>
+            </div>
+        </div>
+        <div class="text__block">
+            <h4 class="text__title">Header 2</h4>
+            <div class="text__content">
+                <p class="text__text">
+                    Fusce consectetur vel urna ut venenatis. Etiam in mauris odio. Phasellus sed turpis vitae justo
+                    maximus suscipit in ut risus. Quisque viverra magna lorem, et placerat velit cursus quis.
+                </p>
+                <p class="text__text">
+                    Maecenas venenatis molestie eros, in pulvinar urna elementum quis. Praesent a lorem quis sem cursus
+                    feugiat sed nec erat. Maecenas venenatis molestie eros, in pulvinar urna elementum quis. Praesent a
+                    lorem quis sem cursus feugiat sed nec erat.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+            <section class="contacts">
+    <h2 class="contacts__title title">CONTACTS</h2>
+    <h3 class="contacts__sub-title">We are open for dialog and you are welcome to share your opinions or thoughts with
+        us</h3>
+    <p class="contacts__text">Hit us up any time through email with any idea and help us turn your great ideas into
+        brilliant projects</p>
+    <div class="contacts__content">
+        <div class="contacts__info">
+            <ul class="contacts__list">
+                <li class="contacts__item">
+                    <img src="img/contacts/icon1.svg" alt="Icon" class="contacts__icon">
+                    <p class="contacts__desc">Ukraine, Kyiv, Rodyny Kristeriv 20B, office 188</p>
+                </li>
+                <li class="contacts__item">
+                    <img src="img/contacts/icon2.svg" alt="Icon" class="contacts__icon">
+                    <p class="contacts__desc">+38 (093) 345 56 76</p>
+                </li>
+                <li class="contacts__item">
+                    <img src="img/contacts/icon3.svg" alt="Icon" class="contacts__icon">
+                    <p class="contacts__desc">+38 (093) 345 56 77</p>
+                </li>
+                <li class="contacts__item">
+                    <img src="img/contacts/icon4.svg" alt="Icon" class="contacts__icon">
+                    <p class="contacts__desc">Stanassets</p>
+                </li>
+                <li class="contacts__item">
+                    <img src="img/contacts/icon5.svg" alt="Icon" class="contacts__icon">
+                    <p class="contacts__desc">stanAssets@gmail.com</p>
+                </li>
+                <li class="contacts__item">
+                    <img src="img/contacts/icon6.svg" alt="Icon" class="contacts__icon">
+                    <p class="contacts__desc">facebook.com/Stanassets</p>
+                </li>
+            </ul>
+        </div>
+        <form action="#" class="contacts__form">
+            <img src="img/contacts/image1.svg" alt="Image" class="contacts__image one">
+            <img src="img/contacts/image2.svg" alt="Image" class="contacts__image two">
+            <img src="img/contacts/image3.svg" alt="Image" class="contacts__image three">
+
+            <div class="contacts__form-block">
+                <input type="text" class="contacts__input" placeholder="Name">
+                <input type="text" class="contacts__input" placeholder="Email">
+                <textarea class="contacts__textarea" placeholder="Message"></textarea>
+                <a href="#" class="contacts__btn btn-green">Send request</a>
+            </div>
+        </form>
+    </div>
+</section>
+            <section class="slider">
+    <div class="slider__container">
+        <h2 class="slider__title title">Recent Projects</h2>
+        <div class="slider__blocks">
+            <a href="#" class="slider__block">
+                <div class="slider__media">
+                    <img src="img/slider/image1.jpg" alt="Image" class="slider__image">
+                </div>
+                <h4 class="slider__block-title">Ori and the will of the wisps </h4>
+                <p class="slider__block-text">
+                    This plugin provides easy and flexible functionality of iOS native functions which are not
+                    natively available from Unity.
+                </p>
+            </a>
+            <a href="#" class="slider__block">
+                <div class="slider__media">
+                    <img src="img/slider/image2.jpg" alt="Image" class="slider__image">
+                </div>
+                <h4 class="slider__block-title">tin hearts</h4>
+                <p class="slider__block-text">
+                    This plugin provides easy and flexible functionality of iOS native functions which are not
+                    natively available from Unity.
+                </p>
+            </a>
+            <a href="#" class="slider__block">
+                <div class="slider__media">
+                    <img src="img/slider/image3.jpg" alt="Image" class="slider__image">
+                </div>
+                <h4 class="slider__block-title">stickman trials</h4>
+                <p class="slider__block-text">
+                    This plugin provides easy and flexible functionality of iOS native functions which are not
+                    natively available from Unity.
+                </p>
+            </a>
+        </div>
+    </div>
+</section>
+            <section class="faq">
+    <h2 class="faq__title title"></h2>
+    <div class="faq__block">
+        <ul class="faq__list">
+            <li class="faq__item">
+                <a href="#" class="faq__link">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sodales
+                    ?</a>
+            </li>
+            <li class="faq__item">
+                <a href="#" class="faq__link">Lorem ipsum dolor sit amet, consectetur adipiscing elit?</a>
+            </li>
+            <li class="faq__item">
+                <a href="#" class="faq__link">Lorem ipsum dolor sit amet?</a>
+            </li>
+            <li class="faq__item">
+                <a href="#" class="faq__link">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sodales
+                    ?</a>
+            </li>
+            <li class="faq__item">
+                <a href="#" class="faq__link">Lorem ipsum dolor sit amet, consectetur adipiscing ?</a>
+            </li>
+        </ul>
+    </div>
+    <div class="faq__spolers">
+        <h5 data-spoler-link="1" class="faq__spoler-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Curabitur sodales ?</h5>
+        <p data-spoler="1" hidden style="display: none" class="faq__spoler-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sodales eleifend dolor vel cursus. Fusce
+            in ligula ut leo eleifend lobortis fringilla non elit. Vivamus mollis, odio ac finibus rutrum, libero augue
+            venenatis leo, in maximus ipsum dui et est. In in aliquet libero. In ac enim non lectus convallis feugiat.
+        </p>
+        <h5 data-spoler-link="2" class="faq__spoler-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Curabitur sodales ?</h5>
+        <p data-spoler="2" hidden style="display: none" class="faq__spoler-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sodales eleifend dolor vel cursus. Fusce
+            in ligula ut leo eleifend lobortis fringilla non elit. Vivamus mollis, odio ac finibus rutrum, libero augue
+            venenatis leo, in maximus ipsum dui et est. In in aliquet libero. In ac enim non lectus convallis feugiat.
+        </p>
+        <h5 data-spoler-link="3" class="faq__spoler-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Curabitur sodales ?</h5>
+        <p data-spoler="3" hidden style="display: none" class="faq__spoler-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sodales eleifend dolor vel cursus. Fusce
+            in ligula ut leo eleifend lobortis fringilla non elit. Vivamus mollis, odio ac finibus rutrum, libero augue
+            venenatis leo, in maximus ipsum dui et est. In in aliquet libero. In ac enim non lectus convallis feugiat.
+        </p>
+        <h5 data-spoler-link="4" class="faq__spoler-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Curabitur sodales ?</h5>
+        <p data-spoler="4" hidden style="display: none" class="faq__spoler-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sodales eleifend dolor vel cursus. Fusce
+            in ligula ut leo eleifend lobortis fringilla non elit. Vivamus mollis, odio ac finibus rutrum, libero augue
+            venenatis leo, in maximus ipsum dui et est. In in aliquet libero. In ac enim non lectus convallis feugiat.
+        </p>
+    </div>
+</section>
+        </main>
+        <footer class="footer">
+    <div class="footer__container">
+        <div class="footer__top">
+            <div class="footer__media">
+                <a href="#" class="footer__logo">
+                    <img src="img/logo.png" alt="Logo" class="footer__image">
+                </a>
+                <div class="footer__socs">
+                    <a href="#" class="footer__soc">
+                        <img src="img/footer/icon1.svg" alt="Icon" class="footer__icon">
+                    </a>
+                    <a href="#" class="footer__soc">
+                        <img src="img/footer/icon2.svg" alt="Icon" class="footer__icon">
+                    </a>
+                    <a href="#" class="footer__soc">
+                        <img src="img/footer/icon3.svg" alt="Icon" class="footer__icon">
+                    </a>
+                    <a href="#" class="footer__soc">
+                        <img src="img/footer/icon4.svg" alt="Icon" class="footer__icon">
+                    </a>
+                    <a href="#" class="footer__soc">
+                        <img src="img/footer/icon5.svg" alt="Icon" class="footer__icon">
+                    </a>
+                </div>
+            </div>
+            <div class="footer__column big">
+                <h4 class="footer__title">Services</h4>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#" class="footer__link">Mobile Application Development</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Game Development Outsourcing</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">VR App Development</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Dedicated Developers</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">SDK Development</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">3D Modeling services</a></li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <h4 class="footer__title">Technologies </h4>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#" class="footer__link">Android</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">IOS</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Unity</a></li>
+                </ul>
+            </div>
+            <div class="footer__column links">
+                <a href="#" class="footer__title-link">products</a>
+                <a href="#" class="footer__title-link">Portfolio</a>
+                <a href="#" class="footer__title-link">Blog</a>
+            </div>
+            <div class="footer__column">
+                <h4 class="footer__title">About us</h4>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#" class="footer__link">Contacts</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Team</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Join the Team</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="footer__container bottom">
+            <p class="footer__left">© 2021 - Stan’s Assets. All Right Reserved</p>
+            <p class="footer__right first">Privacy policy</p>
+            <p class="footer__right">Cookies policy</p>
+        </div>
+    </div>
+</footer>
+    </div>
+
+    <script src="js/app.min.js?_v=20220709160028"></script>
+</body>
+
+</html>

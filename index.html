@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans&display=swap&_v=20220709160028"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220709160028">
+    <title>Мій сайт</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+    <div class="header__container">
+        <a href="#" class="header__logo">
+            <img src="img/logo.png" alt="Icon" class="header__icon">
+        </a>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item">
+                    <div class="header__menu-popup-wrapper">
+                        <a href="#" class="header__link modal">
+                            SERVICES
+                        </a>
+
+                        <ul class="header__menu-popup">
+                            <li class="header__menu-popup-item">
+                                <a href="#" class="header__menu-popup-link">MOBILE APPLICATION DEVELOPMENT</a>
+                            </li>
+                            <li class="header__menu-popup-item">
+                                <a href="#" class="header__menu-popup-link">GAME DEVELOPMENT OUTSOURCING</a>
+                            </li>
+                            <li class="header__menu-popup-item">
+                                <a href="#" class="header__menu-popup-link">VR APP DEVELOPMENT</a>
+                            </li>
+                            <li class="header__menu-popup-item">
+                                <a href="#" class="header__menu-popup-link">DEDICATED DEVELOPERS</a>
+                            </li>
+                            <li class="header__menu-popup-item">
+                                <a href="#" class="header__menu-popup-link">SDK DEVELOPMENT</a>
+                            </li>
+                            <li class="header__menu-popup-item">
+                                <a href="#" class="header__menu-popup-link">3D MODELING SERVICES</a>
+                            </li>
+                            <li class="header__menu-popup-item">
+                                <a href="#" class="header__menu-popup-link">AR APP DEVELOPMENT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="header__item">
+                    <div class="header__menu-popup-wrapper">
+                        <a href="#" class="header__link modal">TECHNOLOGIES</a>
+                    </div>
+                </li>
+                <li class="header__item">
+                    <div class="header__menu-popup-wrapper">
+                        <a href="#" class="header__link">PRODUCTS</a>
+                    </div>
+                </li>
+                <li class="header__item">
+                    <div class="header__menu-popup-wrapper">
+                        <a href="#" class="header__link">PORTFOLIO</a>
+                    </div>
+                </li>
+                <li class="header__item">
+                    <div class="header__menu-popup-wrapper">
+                        <a href="#" class="header__link">BLOG</a>
+                    </div>
+                </li>
+                <li class="header__item">
+                    <div class="header__menu-popup-wrapper">
+                        <a href="#" class="header__link modal">ABOUT US</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <a href="#" class="header__btn btn-border">CONTACT US</a>
+        <a data-burger-link="1" href="#" class="header__burger">
+            <img src="img/icons/burger-icon.svg" alt="Icon" class="header__icon">
+        </a>
+    </div>
+</header>
+
+<div data-burger="1" class="burger">
+    <a data-burger-exit="1" href="#" class="burger__exit">x</a>
+
+    <ul class="burger__list">
+        <li class="burger__item">
+            <a data-spoler-link="01" href="#" class="burger__link modal">SERVICES</a>
+
+            <ul style="display: none" hidden data-spoler="01" class="burger__sub-list">
+                <li class="burger__sub-item">
+                    <a href="#" class="burger__link">MOBILE APPLICATION DEVELOPMENT</a>
+                </li>
+                <li class="burger__sub-item">
+                    <a href="#" class="burger__link">GAME DEVELOPMENT OUTSOURCING</a>
+                </li>
+                <li class="burger__sub-item">
+                    <a href="#" class="burger__link">VR APP DEVELOPMENT</a>
+                </li>
+                <li class="burger__sub-item">
+                    <a href="#" class="burger__link">DEDICATED DEVELOPERS</a>
+                </li>
+                <li class="burger__sub-item">
+                    <a href="#" class="burger__link">SDK DEVELOPMENT</a>
+                </li>
+                <li class="burger__sub-item">
+                    <a href="#" class="burger__link">3D MODELING SERVICES</a>
+                </li>
+                <li class="burger__sub-item">
+                    <a href="#" class="burger__link">AR APP DEVELOPMENT </a>
+                </li>
+            </ul>
+        </li>
+        <li class="burger__item">
+            <a href="#" class="burger__link modal">TECHNOLOGIES</a>
+        </li>
+        <li class="burger__item">
+            <a href="#" class="burger__link">PRODUCTS</a>
+        </li>
+        <li class="burger__item">
+            <a href="#" class="burger__link">PORTFOLIO</a>
+        </li>
+        <li class="burger__item">
+            <a href="#" class="burger__link">BLOG</a>
+        </li>
+        <li class="burger__item">
+            <a href="#" class="burger__link modal">ABOUT US</a>
+        </li>
+    </ul>
+
+    <a href="#" class="burger__btn btn-border green">CONTACT US</a>
+</div>
+		<main class="main">
+			<section class="hero">
+    <div class="hero__slider">
+        <div class="hero__wrapper swiper-wrapper">
+            <div class="hero__slide swiper-slide one">
+                <div class="hero__container">
+                    <h1 class="hero__title">
+                        FOCUS ON THE PRODUCT AND LET US DO THE REST!
+                    </h1>
+                    <p class="hero__text text white">
+                        We’re an Indian software development company focused on just one thing - offshore software
+                        development services. We have 16+ years of experience and a team of 450+ developers working
+                        efficiently to deliver unique solutions to start-ups, software development companies,
+                        enterprises, and digital agencies to simplify their IT outsourcing experience & reduce time/cost
+                        to market.
+                    </p>
+                    <div class="hero__links">
+                        <a href="#" class="hero__btn btn-border">MORE</a>
+                        <a href="#" class="hero__btn btn-green">Contact us</a>
+                    </div>
+                    <div class="hero__pagination"></div>
+                    <p class="hero__text phone">
+                        We’re an Indian software development company focused on just one thing - offshore software
+                        development services. We have 16+ years of experience and a team of 450+ developers working
+                        efficiently to deliver unique solutions to start-ups, software development companies,
+                        enterprises, and digital agencies to simplify their IT outsourcing experience & reduce time/cost
+                        to market.
+                    </p>
+                </div>
+            </div>
+            <div class="hero__slide swiper-slide two">
+                <div class="hero__container">
+                    <h1 class="hero__title">
+                        stan’s assets - IT Outsourcing Development Company
+                    </h1>
+                    <h3 class="hero__sub-title">
+                        FOCUS ON THE PRODUCT AND LET US DO THE REST!
+                    </h3>
+                    <p class="hero__text text white">
+                        Forgot about the stress because of missed deadlines. Save time and resources on development —
+                        Stan’s Assets engineers for hire will do it for you.
+                        Our primary value is transparent client-company relationships.
+                        Our biggest draws are considerable experience in AAA projects, sleek and understandable code,
+                        effective plugins and tools designed to save your time.
+                        Find out what else we can do.
+                    </p>
+                    <div class="hero__links">
+                        <a href="#" class="hero__btn btn-border">MORE</a>
+                        <a href="#" class="hero__btn btn-green">Contact us</a>
+                    </div>
+                    <div class="hero__pagination"></div>
+                    <p class="hero__text phone">
+                        Forgot about the stress because of missed deadlines. Save time and resources on development —
+                        Stan’s Assets engineers for hire will do it for you.
+                        Our primary value is transparent client-company relationships.
+                        Our biggest draws are considerable experience in AAA projects, sleek and understandable code,
+                        effective plugins and tools designed to save your time.
+                        Find out what else we can do.
+                    </p>
+                </div>
+            </div>
+            <div class="hero__slide swiper-slide three">
+                <div class="hero__container">
+                    <h1 class="hero__title">
+                        FOCUS ON THE PRODUCT AND LET US DO THE REST!
+                    </h1>
+                    <p class="hero__text text white">
+                        We’re an Indian software development company focused on just one thing - offshore software
+                        development services. We have 16+ years of experience and a team of 450+ developers working
+                        efficiently to deliver unique solutions to start-ups, software development companies,
+                        enterprises, and digital agencies to simplify their IT outsourcing experience & reduce time/cost
+                        to market.
+                    </p>
+                    <div class="hero__links">
+                        <a href="#" class="hero__btn btn-border">MORE</a>
+                        <a href="#" class="hero__btn btn-green">Contact us</a>
+                    </div>
+                    <div class="hero__pagination"></div>
+                    <p class="hero__text phone">
+                        We’re an Indian software development company focused on just one thing - offshore software
+                        development services. We have 16+ years of experience and a team of 450+ developers working
+                        efficiently to deliver unique solutions to start-ups, software development companies,
+                        enterprises, and digital agencies to simplify their IT outsourcing experience & reduce time/cost
+                        to market.
+                    </p>
+                </div>
+            </div>
+            <div class="hero__pagination"></div>
+        </div>
+    </div>
+    <div class="hero__links-soc">
+        <a href="#" class="hero__link-soc">
+            <img src="img/icons/facebook.svg" alt="Icon" class="hero__icon">
+        </a>
+        <a href="#" class="hero__link-soc">
+            <img src="img/icons/in.svg" alt="Icon" class="hero__icon">
+        </a>
+        <a href="#" class="hero__link-soc">
+            <img src="img/icons/waccap.svg" alt="Icon" class="hero__icon">
+        </a>
+        <a href="#" class="hero__link-soc">
+            <img src="img/icons/skype.svg" alt="Icon" class="hero__icon">
+        </a>
+    </div>
+</section>
+			<section class="technologies">
+    <h2 class="technologies__title title">Technologies</h2>
+    <p class="technologies__text">
+        <span class="technologies__text-blue">Stan’s</span>
+        <span class="technologies__text-blue-two">Assets</span>
+        is a team of developers that are committed to developing
+        high quality and engaging entertainment software
+    </p>
+    <div class="technologies__links">
+        <a href="#" class="technologies__link">
+            <img src="img/technologies/icon1.svg" alt="Icon" class="technologies__icon">
+        </a>
+        <a href="#" class="technologies__link">
+            <img src="img/technologies/icon2.svg" alt="Icon" class="technologies__icon">
+        </a>
+        <a href="#" class="technologies__link">
+            <img src="img/technologies/icon3.svg" alt="Icon" class="technologies__icon">
+        </a>
+    </div>
+    <p class="technologies__text">Our engineers develop applications for the most popular platforms.</p>
+    <div class="technologies__block">
+        <div class="technologies__image">
+            <img src="img/technologies/image.png" alt="Icon" class="technologies__icon">
+        </div>
+        <div class="technologies__content">
+            <p class="technologies__length">4.5</p>
+            <div class="technologies__stars">
+                <div class="technologies__star-icon">
+                    <img src="img/technologies/star.svg" alt="Icon" class="technologies__icon">
+                </div>
+                <div class="technologies__star-icon">
+                    <img src="img/technologies/star.svg" alt="Icon" class="technologies__icon">
+                </div>
+                <div class="technologies__star-icon">
+                    <img src="img/technologies/star.svg" alt="Icon" class="technologies__icon">
+                </div>
+                <div class="technologies__star-icon">
+                    <img src="img/technologies/star.svg" alt="Icon" class="technologies__icon">
+                </div>
+                <div class="technologies__star-icon">
+                    <img src="img/technologies/star.svg" alt="Icon" class="technologies__icon">
+                </div>
+            </div>
+            <p class="technologies__text-block">2 reviews </p>
+        </div>
+        <a href="#" class="technologies__btn btn-green">Check out reviews</a>
+    </div>
+</section>
+			<section class="services">
+    <h2 class="services__title title">Services</h2>
+
+    <div class="services__blocks">
+        <div class="services__block">
+            <div class="services__content">
+                <h3 class="services__block-title">GAME DEVELOPMENT</h3>
+                <p class="services__text text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis dapibus purus, viverra porta
+                    velit. Nam eleifend, dolor a condimentum ullamcorper, ligula nunc elementum mi, et mollis odio
+                    ligula eu felis. Vestibulum a libero lorem. Nulla vestibulum id elit in ullamcorper. Fusce
+                    pellentesque tortor velit, eu rutrum nunc eleifend quis. Fusce dignissim, lectus ut tristique
+                    convallis, leo justo tempus erat, at volutpat arcu tellus eget sapien. Aliquam non ligula in ligula
+                    malesuada venenatis.
+                    Fusce lacus felis, efficitur ut euismod ac, gravida sed tortor. Suspendisse vitae imperdiet elit, at
+                    viverra magna. Aenean ut libero ut arcu maximus faucibus ut ut sapien.
+                </p>
+            </div>
+            <div class="services__media">
+                <img src="img/services/image1.svg" alt="Image" class="services__image">
+            </div>
+        </div>
+        <div class="services__block">
+            <div class="services__content">
+                <h3 class="services__block-title">GAME DEVELOPMENT</h3>
+                <p class="services__text text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis dapibus purus, viverra porta
+                    velit. Nam eleifend, dolor a condimentum ullamcorper, ligula nunc elementum mi, et mollis odio
+                    ligula eu felis. Vestibulum a libero lorem. Nulla vestibulum id elit in ullamcorper. Fusce
+                    pellentesque tortor velit, eu rutrum nunc eleifend quis. Fusce dignissim, lectus ut tristique
+                    convallis, leo justo tempus erat, at volutpat arcu tellus eget sapien. Aliquam non ligula in ligula
+                    malesuada venenatis.
+                    Fusce lacus felis, efficitur ut euismod ac, gravida sed tortor. Suspendisse vitae imperdiet elit, at
+                    viverra magna. Aenean ut libero ut arcu maximus faucibus ut ut sapien.
+                </p>
+            </div>
+            <div class="services__media">
+                <img src="img/services/image2.svg" alt="Image" class="services__image">
+            </div>
+        </div>
+        <div class="services__block">
+            <div class="services__content">
+                <h3 class="services__block-title">GAME DEVELOPMENT</h3>
+                <p class="services__text text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis dapibus purus, viverra porta
+                    velit. Nam eleifend, dolor a condimentum ullamcorper, ligula nunc elementum mi, et mollis odio
+                    ligula eu felis. Vestibulum a libero lorem. Nulla vestibulum id elit in ullamcorper. Fusce
+                    pellentesque tortor velit, eu rutrum nunc eleifend quis. Fusce dignissim, lectus ut tristique
+                    convallis, leo justo tempus erat, at volutpat arcu tellus eget sapien. Aliquam non ligula in ligula
+                    malesuada venenatis.
+                    Fusce lacus felis, efficitur ut euismod ac, gravida sed tortor. Suspendisse vitae imperdiet elit, at
+                    viverra magna. Aenean ut libero ut arcu maximus faucibus ut ut sapien.
+                </p>
+            </div>
+            <div class="services__media">
+                <img src="img/services/image3.svg" alt="Image" class="services__image">
+            </div>
+        </div>
+        <div class="services__block">
+            <div class="services__content">
+                <h3 class="services__block-title">GAME DEVELOPMENT</h3>
+                <p class="services__text text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis dapibus purus, viverra porta
+                    velit. Nam eleifend, dolor a condimentum ullamcorper, ligula nunc elementum mi, et mollis odio
+                    ligula eu felis. Vestibulum a libero lorem. Nulla vestibulum id elit in ullamcorper. Fusce
+                    pellentesque tortor velit, eu rutrum nunc eleifend quis. Fusce dignissim, lectus ut tristique
+                    convallis, leo justo tempus erat, at volutpat arcu tellus eget sapien. Aliquam non ligula in ligula
+                    malesuada venenatis.
+                    Fusce lacus felis, efficitur ut euismod ac, gravida sed tortor. Suspendisse vitae imperdiet elit, at
+                    viverra magna. Aenean ut libero ut arcu maximus faucibus ut ut sapien.
+                </p>
+            </div>
+            <div class="services__media">
+                <img src="img/services/image4.svg" alt="Image" class="services__image">
+            </div>
+        </div>
+    </div>
+</section>
+			<section class="looking">
+    <h2 class="looking__title">LOOKING FOR A PARTNER IN BUILDING A SOLUTION?</h2>
+    <p class="looking__sub-title">We are ready to discuss your project requirements</p>
+    <a href="#" class="looking__btn btn-border green">Let’s talk</a>
+</section>
+			<section class="achievements">
+    <div class="achievements__container">
+        <h2 class="achievements__title title">achievements</h2>
+        <div class="achievements__blocks">
+            <div class="achievements__block">
+                <p class="achievements__text">
+                    Collaboration with <span class="achievements__black">Moon Studios</span> on WotW AAA Unity game.
+                </p>
+            </div>
+            <div class="achievements__block">
+                <p class="achievements__text">
+                    <span class="achievements__blue">50+</span> successfully launched projects on the the market.
+                </p>
+            </div>
+            <div class="achievements__block">
+                <p class="achievements__text">
+                    Asset store publisher since <span class="achievements__blue">2013</span>
+                </p>
+            </div>
+            <div class="achievements__block">
+                <p class="achievements__text">
+                    Our products (packages) used by <span class="achievements__blue">100k+</span> devs in <span
+                        class="achievements__blue">5k+</span> commercial projects worldwide
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+			<section class="partners">
+    <div class="partners__container">
+        <h2 class="partners__title title">Partners</h2>
+        <div class="partners__blocks">
+            <a href="#" class="partners__block">
+                <img src="img/partners/image1.png" alt="Image" class="partners__image">
+            </a>
+            <a href="#" class="partners__block">
+                <img src="img/partners/image2.png" alt="Image" class="partners__image">
+            </a>
+            <a href="#" class="partners__block">
+                <img src="img/partners/image3.png" alt="Image" class="partners__image">
+            </a>
+            <a href="#" class="partners__block">
+                <img src="img/partners/image4.png" alt="Image" class="partners__image">
+            </a>
+            <a href="#" class="partners__block">
+                <img src="img/partners/image5.png" alt="Image" class="partners__image">
+            </a>
+            <a href="#" class="partners__block">
+                <img src="img/partners/image6.png" alt="Image" class="partners__image">
+            </a>
+            <a href="#" class="partners__block">
+                <img src="img/partners/image7.png" alt="Image" class="partners__image">
+            </a>
+            <a href="#" class="partners__block">
+                <img src="img/partners/image8.png" alt="Image" class="partners__image">
+            </a>
+            <a href="#" class="partners__block">
+                <img src="img/partners/image9.png" alt="Image" class="partners__image">
+            </a>
+            <a href="#" class="partners__block">
+                <img src="img/partners/image10.png" alt="Image" class="partners__image">
+            </a>
+            <a href="#" class="partners__block">
+                <img src="img/partners/image11.png" alt="Image" class="partners__image">
+            </a>
+            <a href="#" class="partners__block">
+                <img src="img/partners/image12.png" alt="Image" class="partners__image">
+            </a>
+            <a href="#" class="partners__block">
+                <img src="img/partners/image13.png" alt="Image" class="partners__image">
+            </a>
+            <a href="#" class="partners__block">
+                <img src="img/partners/image14.png" alt="Image" class="partners__image">
+            </a>
+            <a href="#" class="partners__block">
+                <img src="img/partners/image1.png" alt="Image" class="partners__image">
+            </a>
+            <a href="#" class="partners__block">
+                <img src="img/partners/image2.png" alt="Image" class="partners__image">
+            </a>
+        </div>
+    </div>
+</section>
+			<section class="contacts">
+    <h2 class="contacts__title title">CONTACTS</h2>
+    <h3 class="contacts__sub-title">We are open for dialog and you are welcome to share your opinions or thoughts with
+        us</h3>
+    <p class="contacts__text">Hit us up any time through email with any idea and help us turn your great ideas into
+        brilliant projects</p>
+    <div class="contacts__content">
+        <div class="contacts__info">
+            <ul class="contacts__list">
+                <li class="contacts__item">
+                    <img src="img/contacts/icon1.svg" alt="Icon" class="contacts__icon">
+                    <p class="contacts__desc">Ukraine, Kyiv, Rodyny Kristeriv 20B, office 188</p>
+                </li>
+                <li class="contacts__item">
+                    <img src="img/contacts/icon2.svg" alt="Icon" class="contacts__icon">
+                    <p class="contacts__desc">+38 (093) 345 56 76</p>
+                </li>
+                <li class="contacts__item">
+                    <img src="img/contacts/icon3.svg" alt="Icon" class="contacts__icon">
+                    <p class="contacts__desc">+38 (093) 345 56 77</p>
+                </li>
+                <li class="contacts__item">
+                    <img src="img/contacts/icon4.svg" alt="Icon" class="contacts__icon">
+                    <p class="contacts__desc">Stanassets</p>
+                </li>
+                <li class="contacts__item">
+                    <img src="img/contacts/icon5.svg" alt="Icon" class="contacts__icon">
+                    <p class="contacts__desc">stanAssets@gmail.com</p>
+                </li>
+                <li class="contacts__item">
+                    <img src="img/contacts/icon6.svg" alt="Icon" class="contacts__icon">
+                    <p class="contacts__desc">facebook.com/Stanassets</p>
+                </li>
+            </ul>
+        </div>
+        <form action="#" class="contacts__form">
+            <img src="img/contacts/image1.svg" alt="Image" class="contacts__image one">
+            <img src="img/contacts/image2.svg" alt="Image" class="contacts__image two">
+            <img src="img/contacts/image3.svg" alt="Image" class="contacts__image three">
+
+            <div class="contacts__form-block">
+                <input type="text" class="contacts__input" placeholder="Name">
+                <input type="text" class="contacts__input" placeholder="Email">
+                <textarea class="contacts__textarea" placeholder="Message"></textarea>
+                <a href="#" class="contacts__btn btn-green">Send request</a>
+            </div>
+        </form>
+    </div>
+</section>
+		</main>
+		<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__top">
+            <div class="footer__media">
+                <a href="#" class="footer__logo">
+                    <img src="img/logo.png" alt="Logo" class="footer__image">
+                </a>
+                <div class="footer__socs">
+                    <a href="#" class="footer__soc">
+                        <img src="img/footer/icon1.svg" alt="Icon" class="footer__icon">
+                    </a>
+                    <a href="#" class="footer__soc">
+                        <img src="img/footer/icon2.svg" alt="Icon" class="footer__icon">
+                    </a>
+                    <a href="#" class="footer__soc">
+                        <img src="img/footer/icon3.svg" alt="Icon" class="footer__icon">
+                    </a>
+                    <a href="#" class="footer__soc">
+                        <img src="img/footer/icon4.svg" alt="Icon" class="footer__icon">
+                    </a>
+                    <a href="#" class="footer__soc">
+                        <img src="img/footer/icon5.svg" alt="Icon" class="footer__icon">
+                    </a>
+                </div>
+            </div>
+            <div class="footer__column big">
+                <h4 class="footer__title">Services</h4>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#" class="footer__link">Mobile Application Development</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Game Development Outsourcing</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">VR App Development</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Dedicated Developers</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">SDK Development</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">3D Modeling services</a></li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <h4 class="footer__title">Technologies </h4>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#" class="footer__link">Android</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">IOS</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Unity</a></li>
+                </ul>
+            </div>
+            <div class="footer__column links">
+                <a href="#" class="footer__title-link">products</a>
+                <a href="#" class="footer__title-link">Portfolio</a>
+                <a href="#" class="footer__title-link">Blog</a>
+            </div>
+            <div class="footer__column">
+                <h4 class="footer__title">About us</h4>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="#" class="footer__link">Contacts</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Team</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Join the Team</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom">
+        <div class="footer__container bottom">
+            <p class="footer__left">© 2021 - Stan’s Assets. All Right Reserved</p>
+            <p class="footer__right first">Privacy policy</p>
+            <p class="footer__right">Cookies policy</p>
+        </div>
+    </div>
+</footer>
+	</div>
+
+	<script src="js/app.min.js?_v=20220709160028"></script>
+</body>
+
+</html>
